@@ -77,7 +77,6 @@ class Profile extends React.Component {
 					/>
 				</div>
 				<div className='live'>
-					<Live />
 					<div className='livestream'>
 						<Livestream
 							user={this.state.user}
