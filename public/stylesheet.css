@@ -1,6 +1,3 @@
-html, body {
-	height: 3000px;
-}
 
 .navbar {
 	z-index: 20;
@@ -138,4 +135,5 @@ html, body {
 .ui.fluid.container {
     width: 50%;
     margin-top: 6em;
+    margin-bottom:2em;
 }
