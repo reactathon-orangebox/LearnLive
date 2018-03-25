@@ -8,6 +8,7 @@ import LearnMore from './learnMore.js'
 import { Segment, Divider } from 'semantic-ui-react';
 
 
+import Livestream from '../livestream/livestream';
 
 
 class Profile extends React.Component {
@@ -22,19 +23,21 @@ class Profile extends React.Component {
 	}
 
 
-
 	render() {
 		return (
 			<div>
 			<Navbar />
 				<div className="user">
-					<User loggedInUser={this.state.loggedInUser} 
+					<User loggedInUser={this.state.teacher} 
 								followers={this.state.followers}
 								following={this.state.following}
 					/>
 				</div>
 				<div className='live'>
 					<Live />
+					<Livestream
+						user={this.state.user}
+					/>
 				</div>
 				<div className='uploads'>
 					<Uploads uploads={this.state.uploads} />
