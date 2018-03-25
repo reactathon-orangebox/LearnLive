@@ -8,9 +8,6 @@ const SubjectsView = ({ onTeacherClick }) => (
   <div>
     <br/>
     <br/>
-    <br/>
-    <br/>
-    <br/>
     <div className="subject-view-header">
       <h1 className="page-header">
         <Icon name='book' size='large'/>
