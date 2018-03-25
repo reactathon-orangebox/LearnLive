@@ -139,4 +139,4 @@ module.exports = {
   langTeachers,
   mathTeachers,
   yogaTeachers,
-}
+};
