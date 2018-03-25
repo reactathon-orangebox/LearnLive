@@ -6,7 +6,7 @@ class App extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      currentView: 'home',
+      currentView: 'profile',
       currentUser: 'larrychangg',
     }
   }
@@ -22,9 +22,7 @@ class App extends Component {
       return <Profile user={this.state.currentUser} />
     } else if(currentView === 'home'){
       return <Hero />
-    } else if(currentView === 'profile'){
-      return <Profile />
-    }
+    } 
   }
 
   render() {

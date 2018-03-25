@@ -159,6 +159,20 @@ h1.brandResize{
     width: 50%;
     margin-top: 6em;
     margin-bottom:2em;
+=======
+ 
+.ui.secondary.menu .dropdown.item:hover,
+.ui.secondary.menu .link.item:hover,
+.ui.secondary.menu a.item:hover,
+.ui.link.secondary.menu .item:hover {
+  background: orange;
+  color: #fff;
+}
+
+a.active.item {
+  background: orange;
+  color: #fff;
+>>>>>>> added professionals
 }
 
 .ui.secondary.menu .dropdown.item:hover,
