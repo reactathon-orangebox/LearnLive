@@ -159,8 +159,8 @@ h1.brandResize{
     width: 50%;
     margin-top: 6em;
     margin-bottom:2em;
-=======
- 
+}
+
 .ui.secondary.menu .dropdown.item:hover,
 .ui.secondary.menu .link.item:hover,
 .ui.secondary.menu a.item:hover,
@@ -169,10 +169,20 @@ h1.brandResize{
   color: #fff;
 }
 
-a.active.item {
-  background: orange;
-  color: #fff;
->>>>>>> added professionals
+h1.title {
+	font-family:"Great Vibes";
+	text-shadow: -2px 0 #000, 0 2px 	#000, 2px 0 	#000, 0 -2px 	#000;
+	font-size: 7em;
+	text-align: center;
+	color: orange;
+	z-index: 999;
+	vertical-align: middle;
+	padding-top: 2.5em;
+	-webkit-animation: fadein 5s; /* Safari, Chrome and Opera > 12.1 */
+    -moz-animation: fadein 5s; /* Firefox < 16 */
+    -ms-animation: fadein 5s; /* Internet Explorer */
+     -o-animation: fadein 5s; /* Opera < 12.1 */
+        animation: fadein 5s;
 }
 
 .ui.secondary.menu .dropdown.item:hover,
