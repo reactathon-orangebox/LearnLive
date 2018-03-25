@@ -1,13 +1,12 @@
 import React, { Component } from 'react';
-import Professional from './Professional.js'
+import Designs from './Design.js'
 
-export default class ProfessionalsList extends Component {
+export default class SubjectsList extends Component {
 	render() {
 		return (
 			<div className="container-fluid">
 				<div className="row">
-					<Professional />
-				
+					<Designs />
 				</div> 
 			</div>
 		);

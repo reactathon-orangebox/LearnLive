@@ -44,7 +44,7 @@
 .shadow-border {
 	z-index: 9;
 	background-color: #fff;
-	position: fixed;
+	/*position: fixed;*/
 	width: 100%;
   border-color: #D3D3D3;
 	border-style: solid;
@@ -236,6 +236,22 @@ h1.title {
 .ui.link.secondary.menu .item:hover {
   background: orange;
   color: #fff;
+}
+
+h1.title {
+	font-family:"Great Vibes";
+	text-shadow: -2px 0 #000, 0 2px 	#000, 2px 0 	#000, 0 -2px 	#000;
+	font-size: 7em;
+	text-align: center;
+	color: orange;
+	z-index: 999;
+	vertical-align: middle;
+	padding-top: 1.5em;
+	-webkit-animation: fadein 5s; /* Safari, Chrome and Opera > 12.1 */
+    -moz-animation: fadein 5s; /* Firefox < 16 */
+    -ms-animation: fadein 5s; /* Internet Explorer */
+     -o-animation: fadein 5s; /* Opera < 12.1 */
+        animation: fadein 5s;
 }
 
 @keyframes fadein {
