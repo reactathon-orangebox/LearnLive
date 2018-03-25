@@ -1,45 +1,63 @@
-/*.navbar {
+html, body {
+	height: 3000px;
+}
+
+.navbar {
 	z-index: 20;
 	background-color: #fff;
-	padding: 1% 1% 1% 0;
-	font-size: 1.2em;
+	padding: 5px 5px 5px 5px;
+	font-size: 1em;
+}
+
+.navbar-right {
+
 }
 
 .navbar-brand {
 	min-height: 40px;
-	padding: 0 15px 5px;
+	padding: 0 5px 5px;
 }
 
 .navbar-default .navbar-nav li a {
+	padding: 5px 10px 6px 10px ;
+	border-radius: 8px;
+	margin-top: 8px;
+	margin-right: .3em;
 	text-align: center;
-	color: grey;
-}
-
-.navbar-default .navbar-nav li a, .navbar-default .navbar-nav li a:active{
-	text-align: center;
-	border-radius: 16px;
+	color: orange;
 	border-style: solid;
 	border-width: 1px;
-	border-color: #D9d9d9;
+	border-color: orange;
+}
+
+.navbar-default .navbar-nav li a:active, .navbar-default .navbar-nav li a:hover{
+	padding: 5px 10px 5px 10px ;
+	border-radius: 8px;
+	border-style: solid;
+	border-width: 1px;
+	border-color: orange;
 	background-color: orange;
-	color: #fff;
+	margin-top: 8px;
+	margin-right: .3em;
+	color: white;
 	box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.2), 0 2px 4px 0 rgba(0, 0, 0, 0.19);
 }
 
-.navbar-brand-logo{
-	max-height: 200px;
-}*/
+.brandResize {
+	width: 55px;
+	height: 50px;
+}
+
 
 /*home view*/
-
-/*#home {
-    background : url(https://images.pexels.com/photos/88476/pexels-photo-88476.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260) no-repeat center fixed;
+#home {
+    background : url(https://images.pexels.com/photos/301926/pexels-photo-301926.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260) no-repeat center fixed;
     display: table;
     height: 900px;
     position: relative;
     width: 100%;
     background-size: cover;
-}*/
+}
 
 
 /* /////// user ///////// */
