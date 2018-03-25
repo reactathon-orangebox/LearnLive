@@ -1,11 +1,12 @@
 import React, { Component } from 'react';
 import Classroom from './components/classroom/Classroom';
+import Profile from './components/profile_page/profile.js';
 
 class App extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      currentView: 'room'
+      currentView: 'profile'
     }
   }
 
@@ -14,12 +15,14 @@ class App extends Component {
 
     if (currentView === 'room') {
       return <Classroom />
+    } else if (currentView === 'profile') {
+      return <Profile />
     }
   }
 
   render() {
     return (
-      <div id="home">
+      <div>
         { this.switchView() }
       </div>
     )

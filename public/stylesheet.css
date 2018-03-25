@@ -1,4 +1,4 @@
-.navbar {
+/*.navbar {
 	z-index: 20;
 	background-color: #fff;
 	padding: 1% 1% 1% 0;
@@ -28,16 +28,57 @@
 
 .navbar-brand-logo{
 	max-height: 200px;
-}
+}*/
 
 /*home view*/
 
-#home {
+/*#home {
     background : url(https://images.pexels.com/photos/88476/pexels-photo-88476.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260) no-repeat center fixed;
     display: table;
     height: 900px;
     position: relative;
     width: 100%;
     background-size: cover;
+}*/
+
+
+/* /////// user ///////// */
+.ui.avatar.image, .ui.avatar.image img, .ui.avatar.image svg, .ui.avatar.images .image, .ui.avatar.images img, .ui.avatar.images svg {
+    margin-right: .25em;
+    display: inline-block;
+    width: 13em;
+    height: 13em;
+    border-radius: 500rem;
 }
 
+.ui.list .list>.item .header, .ui.list>.item .header {
+    display: block;
+    margin: 0;
+    font-family: Lato,'Helvetica Neue',Arial,Helvetica,sans-serif;
+    font-weight: 700;
+    color: rgba(0,0,0,.87);
+    font-size: 2em;
+    text-align: center;
+}
+
+.profileHeader {
+	text-align: center;
+	margin-top: 7em;
+}
+
+.followers {
+	font-size: 1.2em;
+	margin-left: 1em;
+	margin-top: 1em;
+	color: black;
+}
+
+.headline {
+	margin-top:1em;
+	text-align: center;
+}
+
+.live {
+	margin-top:2em;
+	text-align: center;
+}
