@@ -14,7 +14,7 @@ const clickHandler = (view) => onTeacherClick('profile');
         </span>
         <span className="description">
           <Icon name='user' color='blue'/>
-          <b>{teacher.username}</b>
+          <b onClick={clickHandler}>{teacher.username}</b>
           <br/>
           {teacher.description}
         </span>
