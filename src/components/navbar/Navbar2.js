@@ -14,6 +14,7 @@ export default class Navbar2 extends Component {
       <div className="shadow-border">
       <Menu secondary>
 
+
         <img src="http://www.eatlogos.com/food_and_drinks/png/vector_food_orange_logo.png" className="logoResize"/>
         <h1 className="brandResize">Learn Live</h1>
         <Menu.Item name='Home' active={activeItem === 'home'} onClick={this.handleItemClick} />
