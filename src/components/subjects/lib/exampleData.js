@@ -1,142 +1,172 @@
 
-const topics = ['Art', 'Cooking', 'Foreign Language', 'Math', 'Yoga'];
-
-const artTeachers = [
+const data = [
   {
-    username: 'VincentVanUgh',
-    views: 123,
-    followers: 124,
-    description: '',
+    topic: 'Art',
+    teachers: [
+      {
+        id: 0,
+        username: 'VincentVanUgh',
+        viewers: 123,
+        followers: 124,
+        description: 'Come hear to learn the art of one ear',
+      },
+      {
+        id: 1,
+        username: 'DatGuyLeonardo',
+        viewers: 234,
+        followers: 210,
+        description: 'Erudite scholar looking to educate mad lads',
+      },
+      {
+        id: 2,
+        username: 'DrPepperLive',
+        viewers: 530,
+        followers: 409,
+        description: 'Get better with Dr Pepper',
+      },
+      {
+        id: 3,
+        username: 'SmartArt',
+        viewers: 1293,
+        followers: 1243,
+        description: 'Work Smart, Not Hard',
+      },
+    ],
   },
   {
-    username: 'DatGuyLeonardo',
-    views: 234,
-    followers: 210,
-    description: '',
+    topic: 'Cooking',
+    teachers: [
+      {
+        id: 4,
+        username: 'MasterChef',
+        viewers: 1233,
+        followers: 1124,
+        description: 'Halo is the way yo',
+      },
+      {
+        id: 5,
+        username: 'RamRamsey',
+        viewers: 2340,
+        followers: 2910,
+        description: 'GET OUT OF MY CLASSROOM!',
+      },
+      {
+        id: 6,
+        username: 'MommaDeen',
+        viewers: 510,
+        followers: 439,
+        description: 'Butter Butter Butter',
+      },
+      {
+        id: 7,
+        username: 'SousVide',
+        viewers: 793,
+        followers: 843,
+        description: 'Set it and forget it',
+      },
+    ],
   },
   {
-    username: 'DrPepperLive',
-    views: 530,
-    followers: 409,
-    description: '',
+    topic: 'Foreign Language',
+    teachers: [
+      {
+        id: 8,
+        username: 'BangALang',
+        viewers: 1323,
+        followers: 1424,
+        description: 'La cucaracha la cucaracha',
+      },
+      {
+        id: 9,
+        username: 'BirdsTheWord',
+        viewers: 694,
+        followers: 490,
+        description: 'Learn words with Birds',
+      },
+      {
+        id: 10,
+        username: 'HolaComoEsta',
+        viewers: 400,
+        followers: 479,
+        description: 'Hello, how are you?',
+      },
+      {
+        id: 11,
+        username: 'Aubergine',
+        viewers: 193,
+        followers: 243,
+        description: 'Eggplant',
+      },
+    ],
   },
   {
-    username: 'SmartArt',
-    views: 1293,
-    followers: 1243,
-    description: '',
-  },
-];
-const cookingTeachers = [
-  {
-    username: 'MasterChef',
-    views: 1233,
-    followers: 1124,
-    description: '',
-  },
-  {
-    username: 'RamRamsey',
-    views: 2340,
-    followers: 2910,
-    description: '',
-  },
-  {
-    username: 'MommaDeen',
-    views: 510,
-    followers: 439,
-    description: '',
-  },
-  {
-    username: 'SousVide',
-    views: 793,
-    followers: 843,
-    description: '',
-  },
-];
-const langTeachers = [
-  {
-    username: 'BangALang',
-    views: 1323,
-    followers: 1424,
-    description: '',
+    topic: 'Math',
+    teachers: [
+      {
+        id: 12,
+        username: 'Fibonacci',
+        viewers: 2123,
+        followers: 2224,
+        description: '',
+      },
+      {
+        id: 13,
+        username: 'MathMagician',
+        viewers:1834,
+        followers: 1910,
+        description: '',
+      },
+      {
+        id: 14,
+        username: 'why789',
+        viewers: 320,
+        followers: 209,
+        description: '',
+      },
+      {
+        id: 15,
+        username: 'OnePlueOne',
+        viewers: 593,
+        followers: 743,
+        description: '',
+      },
+    ],
   },
   {
-    username: 'BirdsTheWord',
-    views: 694,
-    followers: 490,
-    description: '',
-  },
-  {
-    username: 'HolaComoEsta',
-    views: 400,
-    followers: 479,
-    description: '',
-  },
-  {
-    username: 'Aubergine',
-    views: 193,
-    followers: 243,
-    description: '',
-  },
-];
-const mathTeachers = [
-  {
-    username: 'Fibonacci',
-    views: 2123,
-    followers: 2224,
-    description: '',
-  },
-  {
-    username: 'MathMagician',
-    views:1834,
-    followers: 1910,
-    description: '',
-  },
-  {
-    username: 'why789',
-    views: 320,
-    followers: 209,
-    description: '',
-  },
-  {
-    username: 'OnePlueOne',
-    views: 593,
-    followers: 743,
-    description: '',
-  },
-];
-const yogaTeachers = [
-  {
-    username: 'larrychangg',
-    views: 333,
-    followers: 214,
-    description: '',
-  },
-  {
-    username: 'Funyuns',
-    views: 434,
-    followers: 267,
-    description: '',
-  },
-  {
-    username: 'DangItsKang',
-    views: 398,
-    followers: 320,
-    description: '',
-  },
-  {
-    username: 'FitToBeUnfit',
-    views: 255,
-    followers: 69,
-    description: '',
+    topic: 'Yoga',
+    teachers: [
+      {
+        id: 16,
+        username: 'larrychangg',
+        viewers: 333,
+        followers: 214,
+        description: '',
+      },
+      {
+        id: 17,
+        username: 'Funyuns',
+        viewers: 434,
+        followers: 267,
+        description: '',
+      },
+      {
+        id: 18,
+        username: 'DangItsKang',
+        viewers: 398,
+        followers: 320,
+        description: '',
+      },
+      {
+        id: 19,
+        username: 'FitToBeUnfit',
+        viewers: 255,
+        followers: 69,
+        description: '',
+      },
+    ],
   },
 ];
 
 module.exports = {
-  topics,
-  artTeachers,
-  cookingTeachers,
-  langTeachers,
-  mathTeachers,
-  yogaTeachers,
+  data,
 };

@@ -1,3 +1,15 @@
+<<<<<<< HEAD
+=======
+html, body {
+	height: 3000px;
+}
+	
+body {
+height: 3000px;
+padding-top: 65px;
+}
+
+>>>>>>> Changes format of example data and adjust components for data
 .navbar {
 	z-index: 20;
 	background-color: #fff;
@@ -65,10 +77,27 @@ h1.brandResize{
 	height: 60px;
 }
 
+<<<<<<< HEAD
 /*
 .sticky-top {
 	position: fixed;
 }*/
+=======
+.description {
+	display: inline-block;
+	width: 200px;
+	height: 200px;
+}
+
+.followers {
+	float: right;
+}
+
+.viewers {
+	float: left;
+}
+/*home view*/
+>>>>>>> Changes format of example data and adjust components for data
 
 /*home view*/
 #home {

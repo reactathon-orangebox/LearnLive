@@ -1,10 +1,13 @@
 import React from 'react';
+import Navbar from '../navbar/Navbar';
 import Subject from './Subject';
-import subjectData from './lib/exampleData';
+import { data } from './lib/exampleData';
 
 const SubjectsView = () => (
   <div>
-    {subjectData.topics.map(topic => <Subject topic={topic} teachers={subjectData.artTeachers} />)}
+    <Navbar />
+    <h2>Subjects</h2>
+    {data.map(subject => <Subject topic={subject.topic} teachers={subject.teachers} />)}
   </div>
 );
 
