@@ -1,11 +1,11 @@
 import React, { Component } from 'react';
-import Navbar from '../navbar/Navbar'
+import Navbar from '../navbar/Navbar.js'
 
 class Classroom extends Component {
   render() {
     return(
       <div>
-        <Navbar/>
+        
         This is the Classroom!
       </div>
     )

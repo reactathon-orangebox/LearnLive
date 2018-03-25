@@ -3,6 +3,7 @@ import axios from 'axios';
 import User from './user.js';
 import Uploads from './uploads.js';
 import Live from './live.js';
+import Navbar from '../navbar/Navbar.js'
 
 
 class Profile extends React.Component {
@@ -21,6 +22,7 @@ class Profile extends React.Component {
 	render() {
 		return (
 			<div>
+			<Navbar />
 				<div className="user">
 					<User loggedInUser={this.state.loggedInUser} 
 								followers={this.state.followers}
