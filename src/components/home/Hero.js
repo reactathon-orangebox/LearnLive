@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import Navbar2 from '../navbar/Navbar2.js'
-import Professional from './Professional.js';
 import ProfessionalsList from './ProfessionalsList.js';
+import SubjectsList from './SubjectsList.js';
 
 export default class Hero extends Component {
 
@@ -15,6 +15,10 @@ export default class Hero extends Component {
 				<h1 className="page-header"> Professionals </h1> 
 
 				<ProfessionalsList />
+
+				<h1 className="page-header"> Design </h1> 
+
+				<SubjectsList />
 
 			</div>
 		);
