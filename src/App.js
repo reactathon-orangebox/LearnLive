@@ -38,7 +38,7 @@ class App extends Component {
     if(currentView === 'profile') {
       return <Profile user={this.state.currentUser} role={this.state.currentRole} />
     } else if(currentView === 'home'){
-      return <Hero /> 
+      return <Hero profile={this.changeView.bind(this)} /> 
     } else if ( currentView === 'subjects') {
       return <SubjectsView onTeacherClick={this.onTeacherClick}/>
     }
