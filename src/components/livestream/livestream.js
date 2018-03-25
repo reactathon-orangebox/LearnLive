@@ -46,9 +46,13 @@ class Livestream extends Component {
         onError={ this.onError }
       >
         {this.state.error ? <div>{this.state.error}</div> : null}
-        <OTPublisher />
+        <OTPublisher 
+          properties={{ width: 600, height: 400 }}
+        />
         <OTStreams>
-          <OTSubscriber />
+          <OTSubscriber className='them'
+            properties={{ float: 'right', width: 200, height: 100}} 
+          />
         </OTStreams>
       </OTSession>
     )
