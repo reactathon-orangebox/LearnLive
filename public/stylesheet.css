@@ -5,7 +5,6 @@ html, body {
 }
 	
 body {
-	height: 3000px;
 	padding-top: 65px;
 }
 
@@ -101,8 +100,9 @@ h1.brandResize{
 	padding: 0px;
 }
 
-.subject-header {
+.subject-view-header {
 	color: orange;
+
 }
 
 .topic {

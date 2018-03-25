@@ -7,13 +7,18 @@ class App extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      currentView: 'profile',
-      currentUser: 'larrychangg'
+      currentView: 'subjects',
+      currentUser: 'stphnchoe'
     }
+    this.onTeacherClick = this.onTeacherClick.bind(this);
   }
 
   userLogin(user) {
     this.setState({ currentUser: user });
+  }
+
+  onTeacherClick(view) {
+    this.setState({ currentView: view });
   }
 
   switchView() {
@@ -22,7 +27,7 @@ class App extends Component {
     if (currentView === 'profile') {
       return <Profile />;
     } else if (currentView === 'subjects') {
-      return <SubjectsView />;
+      return <SubjectsView onTeacherClick={this.onTeacherClick}/>;
     }
   }
 

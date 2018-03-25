@@ -3,11 +3,13 @@ import Navbar from '../navbar/Navbar';
 import Subject from './Subject';
 import { data } from './lib/exampleData';
 
-const SubjectsView = () => (
+const SubjectsView = ({ onTeacherClick }) => (
   <div>
     <Navbar />
-      <h1 className="subject-header page-header">Courses</h1>
-    {data.map(subject => <Subject topic={subject.topic} teachers={subject.teachers} />)}
+    <div className="subject-view-header">
+      <h1 className="page-header">Courses</h1>
+    </div>
+    {data.map(subject => <Subject topic={subject.topic} teachers={subject.teachers} onTeacherClick={onTeacherClick}/>)}
   </div>
 );
 
