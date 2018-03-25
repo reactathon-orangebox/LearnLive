@@ -63,6 +63,7 @@ body {
     box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.2), 0 2px 4px 0 rgba(0, 0, 0, 0.19);
 }
 
+<<<<<<< HEAD
 h1.brandResize{
 	color: orange;
 	/*text-shadow: -.2px 0 black, 0 .2px black, .2px 0 black, 0 -.2px black;*/
@@ -83,19 +84,33 @@ h1.brandResize{
 	position: fixed;
 }*/
 =======
+=======
+/***** SubjectsView *****/
+>>>>>>> Updates exampleData and changes CSS for subject components
 .description {
+	background-color: orange;
+	border-radius: 5px;
 	display: inline-block;
-	width: 200px;
+	vertical-align: top;
 	height: 200px;
+	width: 200px;
 }
 
-.follower-count {
-	float: right;
+.subjects-main-header {
+	height: 5em;
+	padding: 0px;
 }
 
-.viewers {
-	float: left;
+.subject-header {
 }
+
+.topic {
+	height: 3em;
+	padding: 5px;
+}
+
+/***** SubjectsView *****/
+
 /*home view*/
 >>>>>>> Changes format of example data and adjust components for data
 

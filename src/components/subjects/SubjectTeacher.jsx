@@ -1,17 +1,21 @@
 import React from 'react';
+import { Icon } from 'semantic-ui-react';
 
 const SubjectTeacher = (props) => (
   <div>
     <div>
       <img src={'https://images.cdn1.stockunlimited.net/clipart/businessman-avatar_1953703.jpg'} alt='Teacher' />
       <span className="description">
+        <Icon name='user' color='blue'/>
         <b>{props.teacher.username}</b>
         <br/>
         {props.teacher.description}
       </span>
     </div>
-    <div className='viewers'>Viewers: {props.teacher.views}</div>
-    <div className='follower-count'>Followers: {props.teacher.followers}</div>
+    <Icon name='eye' />
+    <span className='viewers'>{`${props.teacher.viewers} `}</span>
+    <Icon name='heart outline' />
+    <span className='follower-count' >{`${props.teacher.followers}`}</span>
   </div>
 );
 

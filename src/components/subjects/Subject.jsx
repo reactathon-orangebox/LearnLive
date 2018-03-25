@@ -4,7 +4,9 @@ import Flexbox from 'flexbox-react';
 
 const Subject = (props) => (
   <div>
-    <h3>{props.topic}</h3>
+    <div className="topic page-header">
+      <h2>{props.topic}</h2>
+    </div>
     <Flexbox flexDirection="row" justifyContent="space-around">
         {props.teachers.map(teacher => 
         <div>

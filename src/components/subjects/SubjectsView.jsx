@@ -6,7 +6,7 @@ import { data } from './lib/exampleData';
 const SubjectsView = () => (
   <div>
     <Navbar />
-    <h2>Subjects</h2>
+      <h1 className="subject-header page-header">Courses</h1>
     {data.map(subject => <Subject topic={subject.topic} teachers={subject.teachers} />)}
   </div>
 );
