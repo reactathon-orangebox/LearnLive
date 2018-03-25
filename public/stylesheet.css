@@ -165,15 +165,16 @@ h1.brandResize{
 	border-radius: 500rem;
 	font-size: 20px;
 	color: black;
+	background-color: lightgrey;
 }
 
-.ui.tabular.menu+.attached:not(.top).segment, .ui.tabular.menu+.attached:not(.top).segment+.attached:not(.top).segment {
-    border-top: none;
-    margin-left: 0;
-    margin-top: 0;
-    margin-right: 0;
-    width: 50%;
-    margin: auto;
+.enroll {
+	margin: 0.5em;
+	margin-top: 0em;
+	border-radius: 500rem;
+	font-size: 20px;
+	color: black;
+	background-color: lightgrey;
 }
 
 .ui.menu[class*="top attached"]:first-child {
@@ -287,3 +288,10 @@ h1.title {
 @-o-keyframes fadein {
     from { opacity: 0; }
     to   { opacity: .9; }
+}
+
+h2.ui.header {
+    font-size: 2rem;
+    font-family: "Great Vibes";
+    color: orange;
+}
