@@ -265,3 +265,10 @@ h2.ui.header {
 	box-shadow: 0px 30px 40px rgba(0,0,0,.1);
 }
 
+.livestream {
+	margin: auto;
+	width: 50%;
+	text-align: center;
+	width: 400px;
+}
+

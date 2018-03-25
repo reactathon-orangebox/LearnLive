@@ -78,9 +78,11 @@ class Profile extends React.Component {
 				</div>
 				<div className='live'>
 					<Live />
-					<Livestream
-						user={this.state.user}
-					/>
+					<div className='livestream'>
+						<Livestream
+							user={this.state.user}
+						/>
+					</div>
 				</div>
 				<div className='uploads'>
 					<Uploads uploads={this.state.uploads} />
