@@ -6,6 +6,11 @@ import Live from './live.js';
 import Navbar from '../navbar/Navbar.js'
 import LearnMore from './learnMore.js'
 import { Segment, Divider } from 'semantic-ui-react';
+<<<<<<< HEAD
+=======
+
+
+>>>>>>> Implement livestream window
 import Livestream from '../livestream/livestream';
 
 
