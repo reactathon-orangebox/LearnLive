@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import Classroom from './components/classroom/Classroom';
 import Profile from './components/profile_page/profile.js';
 import Navbar from './components/navbar/Navbar';
 
@@ -19,9 +18,7 @@ class App extends Component {
   switchView() {
     var currentView = this.state.currentView;
 
-    if (currentView === 'room') {
-      return <Classroom />
-    } else if (currentView === 'profile') {
+    if (currentView === 'profile') {
       return <Profile user={this.state.currentUser} />
     }
   }
