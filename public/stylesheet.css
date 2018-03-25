@@ -88,7 +88,7 @@ h1.brandResize{
 /***** SubjectsView *****/
 >>>>>>> Updates exampleData and changes CSS for subject components
 .description {
-	background-color: orange;
+	background-color: lightgrey;
 	border-radius: 5px;
 	display: inline-block;
 	vertical-align: top;
@@ -102,9 +102,11 @@ h1.brandResize{
 }
 
 .subject-header {
+	color: orange;
 }
 
 .topic {
+	color: orange;
 	height: 3em;
 	padding: 5px;
 }

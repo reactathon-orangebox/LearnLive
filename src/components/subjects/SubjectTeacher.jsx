@@ -14,8 +14,8 @@ const SubjectTeacher = (props) => (
     </div>
     <Icon name='eye' />
     <span className='viewers'>{`${props.teacher.viewers} `}</span>
-    <Icon name='heart outline' />
-    <span className='follower-count' >{`${props.teacher.followers}`}</span>
+    <Icon name='heart' color='red'   />
+    <span className='follower-count'>{`${props.teacher.followers}`}</span>
   </div>
 );
 
