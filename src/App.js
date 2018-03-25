@@ -8,6 +8,7 @@ class App extends Component {
     this.state = {
       currentView: 'profile',
       currentUser: 'larrychangg',
+
     }
   }
 
