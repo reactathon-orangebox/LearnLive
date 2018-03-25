@@ -39,7 +39,7 @@ class Navbar2 extends Component {
         <img src="http://www.eatlogos.com/food_and_drinks/png/vector_food_orange_logo.png" className="logoResize"/>
         <h1 className="brandResize">Learn Live</h1>
         <Menu.Item name='Home' active={activeItem === 'home'} onClick={this.handleNavChange.bind(this, 'home')} />
-        <Menu.Item name='Courses' active={activeItem === 'courses'} onClick={this.handleItemClick} />
+        <Menu.Item name='Courses' active={activeItem === 'courses'} onClick={this.handleNavChange.bind(this, 'subjects')} />
         <Menu.Item name='Professionals' active={activeItem === 'professionals'} onClick={this.handleItemClick} />
 
         <Menu.Menu position='right'>

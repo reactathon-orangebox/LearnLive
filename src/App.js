@@ -10,9 +10,9 @@ class App extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      currentView: 'profile',
+      currentView: 'home',
       currentUser: 'dangitskang',
-      currentRole: 'publisher'
+      currentRole: 'subscriber'
     }
     this.onTeacherClick = this.onTeacherClick.bind(this);
   }

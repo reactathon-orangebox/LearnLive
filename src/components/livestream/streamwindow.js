@@ -46,14 +46,14 @@ class StreamWindow extends Component {
         onError={ this.onError }
       >
         {this.state.error ? <div>{this.state.error}</div> : null}
-        <OTPublisher 
-          properties={{ width: 600, height: 400 }}
-        />
         <OTStreams>
           <OTSubscriber className='them'
-            properties={{ float: 'right', width: 200, height: 100}} 
+            properties={{ width: 600, height: 400 }} 
           />
         </OTStreams>
+        <OTPublisher 
+          properties={{ float: 'right', width: 200, height: 100}}
+        />
       </OTSession>
         {/* <button onClick={this.props.endClass.bind(null)} >End Class</button> */}
       </div>
@@ -62,3 +62,12 @@ class StreamWindow extends Component {
 }
 
 export default preloadScript(StreamWindow);
+
+{/* <OTPublisher 
+properties={{ width: 600, height: 400 }}
+/>
+<OTStreams>
+<OTSubscriber className='them'
+  properties={{ float: 'right', width: 200, height: 100}} 
+/>
+</OTStreams> */}

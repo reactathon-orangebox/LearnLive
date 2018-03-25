@@ -6,7 +6,7 @@ export default class ProfessionalsList extends Component {
 		return (
 			<div className="container-fluid">
 				<div className="row">
-					<Professional />
+					<Professional profile={this.props.profile} />
 				
 				</div> 
 			</div>

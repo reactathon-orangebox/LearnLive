@@ -11,7 +11,7 @@ export default class Professional extends Component {
 					
 						<img className="image-size" src="https://lovepositivethinking.com/wp-content/uploads/2017/01/best-3-yoga-mats.jpg" />
 
-						<div className="btn-group btn-group-justified">
+						<div className="btn-group btn-group-justified" onClick={this.props.profile.bind(this, 'profile')} >
 							<a href="#" className="btn btn-warning btn-lg btn-block">Derrick Zhang</a>
 							<a href="#" className="btn btn-default btn-lg btn-block">Yoga &nbsp;&nbsp;<Icon name='heartbeat'/></a>
 						</div>
@@ -61,11 +61,11 @@ export default class Professional extends Component {
 			<div>
 				<div className= "thumbnail col-md-3 col-sm-6 col-xs-12">
 					
-						<img className="image-size" src="https://www.marketingtochina.com/wp-content/uploads/2015/05/Zhang-Ziyi.jpg" />
+						<img className="image-size" src="https://images.wallpapersden.com/image/download/jack-black-in-jumanji-welcome-to-the-jungle_60891_1280x1024.jpg" />
 
 						<div className="btn-group btn-group-justified">
-							<a href="#" className="btn btn-warning btn-lg btn-block">Cherry Xu</a>
-							<a href="#" className="btn btn-default btn-lg btn-block">Poker&nbsp;&nbsp;<Icon name='life ring outline'/></a>
+							<a href="#" className="btn btn-warning btn-lg btn-block">Aaron Pietsch</a>
+							<a href="#" className="btn btn-default btn-lg btn-block">Life Coach&nbsp;<Icon name='trophy'/></a>
 						</div>
 					
 				</div>
@@ -92,7 +92,7 @@ export default class Professional extends Component {
 
 						<div className="btn-group btn-group-justified">
 							<a href="#" className="btn btn-warning btn-lg btn-block">Stephen Choe</a>
-							<a href="#" className="btn btn-default btn-lg btn-block">Video Games &nbsp;&nbsp;<Icon name='game'/></a>
+							<a href="#" className="btn btn-default btn-lg btn-block">Games &nbsp;&nbsp;<Icon name='game'/></a>
 						</div>
 					
 				</div>
@@ -105,7 +105,7 @@ export default class Professional extends Component {
 
 						<div className="btn-group btn-group-justified">
 							<a href="#" className="btn btn-warning btn-lg btn-block">Jackie Jou</a>
-							<a href="#" className="btn btn-default btn-lg btn-block">Dating Coach &nbsp;&nbsp;<Icon name='user secret'/></a>
+							<a href="#" className="btn btn-default btn-lg btn-block">Dating &nbsp;&nbsp;<Icon name='user secret'/></a>
 						</div>
 					
 				</div>
