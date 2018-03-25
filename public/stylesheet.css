@@ -163,28 +163,18 @@ h1.brandResize{
 	font-size: 20px;
 	color: black;
 	background-color: lightgrey;
-<<<<<<< HEAD
 	padding-right: 1em;
 	padding-left: 1em;
-=======
->>>>>>> click handlers
 }
 
 .enroll {
 	margin: 0.5em;
 	margin-top: 0em;
-<<<<<<< HEAD
 	font-size: 20px;
 	color: black;
 	background-color: lightgrey;
 	padding-right: 1em;
 	padding-left: 1em;
-=======
-	border-radius: 500rem;
-	font-size: 20px;
-	color: black;
-	background-color: lightgrey;
->>>>>>> click handlers
 }
 
 .ui.menu[class*="top attached"]:first-child {
