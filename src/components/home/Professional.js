@@ -11,7 +11,6 @@ export default class Professional extends Component {
 						<div className="btn-group btn-group-justified">
 							<a href="#" className="btn btn-warning btn-lg btn-block">Larry Chang</a>
 							<a href="#" className="btn btn-default btn-lg btn-block">Soccer &nbsp;&nbsp;<Icon name='soccer'/></a>
-
 						</div>
 					
 				</div>

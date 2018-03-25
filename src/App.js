@@ -22,7 +22,7 @@ class App extends Component {
       return <Profile user={this.state.currentUser} />
     } else if(currentView === 'home'){
       return <Hero />
-    } 
+    }
   }
 
   render() {
