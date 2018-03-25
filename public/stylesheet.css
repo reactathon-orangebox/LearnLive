@@ -1,3 +1,7 @@
+html, body {
+	height: 3000px;
+}
+
 .navbar {
 	z-index: 20;
 	background-color: #fff;
@@ -65,10 +69,33 @@ h1.brandResize{
 	height: 60px;
 }
 
-/*
-.sticky-top {
-	position: fixed;
-}*/
+/***** SubjectsView *****/
+.description {
+	background-color: lightgrey;
+	border-radius: 5px;
+	display: inline-block;
+	vertical-align: top;
+	height: 200px;
+	width: 200px;
+}
+
+.subjects-main-header {
+	height: 5em;
+	padding: 0px;
+}
+
+.subject-view-header {
+	color: orange;
+
+}
+
+.topic {
+	color: orange;
+	height: 3em;
+	padding: 5px;
+}
+
+/***** SubjectsView *****/
 
 /*home view*/
 #home {
