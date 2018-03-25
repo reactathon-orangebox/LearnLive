@@ -7,7 +7,7 @@ class App extends Component {
     super(props);
     this.state = {
       currentView: 'profile',
-      currentUser: 'larrychangg'
+      currentUser: 'larrychangg',
       currentView: 'home'
     }
   }
@@ -19,21 +19,19 @@ class App extends Component {
   switchView() {
     var currentView = this.state.currentView;
 
-    if (currentView === 'profile') {
+    if(currentView === 'profile') {
       return <Profile user={this.state.currentUser} />
-    if(currentView === 'home'){
+    } else if(currentView === 'home'){
       return <Hero />
-    } else if (currentView === 'room') {
-      return <Classroom />
-    } else if (currentView === 'profile') {
+    } else if(currentView === 'profile'){
       return <Profile />
     }
   }
 
   render() {
+
     return (
       <div>
-        <Navbar />
         { this.switchView() }
       </div>
     )
