@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import StreamWindow from './streamwindow';
-import axios from 'axios';
 
 import sampleUsers from '../../sampleData/users';
 
@@ -9,13 +8,18 @@ class Livestream extends Component {
     super(props);
     this.state = {
       streaming: false,
-      userRole: null
+      connected: false
     }
+    this.sessionEvents = {
+      sessionConnected: () => {
+        this.setState({ connected: true });
+      },
+      sessionDisconnected: () => {
+        this.setState({ connected: false });
+      }
+    };
   }
 
-  componentWillMount() {
-    this.checkRole();
-  }
 
   startClass() {
     this.setState({ streaming: true });
@@ -25,26 +29,28 @@ class Livestream extends Component {
     this.setState({ streaming: false });
   }
 
-  checkRole() {
-    axios.get(`/.netlify/functions/userRoles?user=${this.props.user}`)
-      .then(response => {
-        this.setState({userRole: response.data.role})
-      });
+  joinClass() {
+    return <StreamWindow
+                user={ this.props.user }
+                userRole={ this.props.role }
+                endClass={ this.endClass.bind(this) }
+              />
   }
 
   viewerSwitch() {
     if (this.state.streaming === false) {
-      if (this.state.userRole === 'publisher') {
+      if (this.props.role === 'publisher') {
         return <button onClick={this.startClass.bind(this)}>Start Class</button>
-      } else {
-        return <div>Sorry, class is currently not in session!</div>
+    //   } else {
+    //     return <div>Sorry, class is currently not in session!</div>
+    //   }
       }
-    } else if (this.state.streaming === true && this.state.userRole === 'subscriber') {
-        return <button onClick={this.startClass.bind(this)}>Join Class</button>
+    // } else if (this.state.streaming === true && this.props.role === 'subscriber') {
+    //     return <button onClick={this.joinClass.bind(this)}>Join Class</button>
     } else {
       return <StreamWindow
                 user={ this.props.user }
-                userRole={ this.state.userRole }
+                userRole={ this.props.role }
                 endClass={ this.endClass.bind(this) }
               />
     }
@@ -53,8 +59,11 @@ class Livestream extends Component {
   render() {
     return (
       <div>
-        {console.log(this.state.userRole)}
-        { this.viewerSwitch() }
+        <StreamWindow
+          user={ this.props.user }
+          userRole={ this.props.role }
+          endClass={ this.endClass.bind(this) }
+        />
       </div>
     )
   }

@@ -80,6 +80,7 @@ class Profile extends React.Component {
 					<div className='livestream'>
 						<Livestream
 							user={this.state.user}
+							role={this.props.role}
 						/>
 					</div>
 				</div>
