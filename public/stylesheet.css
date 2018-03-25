@@ -5,8 +5,8 @@ html, body {
 }
 	
 body {
-height: 3000px;
-padding-top: 65px;
+	height: 3000px;
+	padding-top: 65px;
 }
 
 >>>>>>> Changes format of example data and adjust components for data
@@ -89,7 +89,7 @@ h1.brandResize{
 	height: 200px;
 }
 
-.followers {
+.follower-count {
 	float: right;
 }
 

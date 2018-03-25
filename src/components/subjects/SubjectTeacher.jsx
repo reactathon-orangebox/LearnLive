@@ -11,7 +11,7 @@ const SubjectTeacher = (props) => (
       </span>
     </div>
     <div className='viewers'>Viewers: {props.teacher.views}</div>
-    <div className='followers'>Followers: {props.teacher.followers}</div>
+    <div className='follower-count'>Followers: {props.teacher.followers}</div>
   </div>
 );
 
