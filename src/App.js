@@ -19,7 +19,7 @@ class App extends Component {
 
   render() {
     return (
-      <div>
+      <div id="home">
         { this.switchView() }
       </div>
     )
