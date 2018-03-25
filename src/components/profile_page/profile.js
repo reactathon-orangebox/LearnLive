@@ -15,7 +15,9 @@ class Profile extends React.Component {
 	constructor(props) {
 		super(props);
 		this.state ={
-			loggedInUser: 'Derrick Zhang',
+			teacher: 'Derrick Zhang',
+			user: this.props.user,
+			userToken: 'empty',
 			followers: 546,
 			following: 12,
 			uploads: ['kuSZEZ0fCY0', 'Ho9em79_0qg', 'GLy2rYHwUqY', 'oBu-pQG6sTY', 'RaPp5jr--xo']
