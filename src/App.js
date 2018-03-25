@@ -3,12 +3,13 @@ import Profile from './components/profile_page/profile.js';
 import Navbar from './components/navbar/Navbar2.js'
 import Hero from './components/home/Hero.js';
 import SubjectsView from './components/subjects/SubjectsView.jsx';
+import Navbar2 from './components/navbar/Navbar2.js';
 
 class App extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      currentView: 'subjects',
+      currentView: 'profile',
       currentUser: 'larrychangg',
     }
     this.onTeacherClick = this.onTeacherClick.bind(this);
@@ -38,7 +39,10 @@ class App extends Component {
 
     return (
       <div>
-        { this.switchView() }
+        <Navbar2 />
+        <div>
+          { this.switchView() }
+        </div>
       </div>
     )
   }

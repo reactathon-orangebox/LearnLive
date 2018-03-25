@@ -3,7 +3,7 @@ import Iframe from 'react-iframe';
 
 const Upload = (props) => (
 	<div className='upload'>
-		<Iframe url={`http://www.youtube.com/embed/${props.upload}`} width="130px" height="100px" 
+		<Iframe url={`https://www.youtube.com/embed/${props.upload}`} width="130px" height="100px" 
 	    id="myId"
 	    className="myClassname"
 	    display="initial"
