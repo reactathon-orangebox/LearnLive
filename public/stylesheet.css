@@ -1,14 +1,7 @@
-<<<<<<< HEAD
-=======
 html, body {
 	height: 3000px;
 }
-	
-body {
-	padding-top: 65px;
-}
 
->>>>>>> Changes format of example data and adjust components for data
 .navbar {
 	z-index: 20;
 	background-color: #fff;
@@ -62,7 +55,6 @@ body {
     box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.2), 0 2px 4px 0 rgba(0, 0, 0, 0.19);
 }
 
-<<<<<<< HEAD
 h1.brandResize{
 	color: orange;
 	/*text-shadow: -.2px 0 black, 0 .2px black, .2px 0 black, 0 -.2px black;*/
@@ -77,15 +69,7 @@ h1.brandResize{
 	height: 60px;
 }
 
-<<<<<<< HEAD
-/*
-.sticky-top {
-	position: fixed;
-}*/
-=======
-=======
 /***** SubjectsView *****/
->>>>>>> Updates exampleData and changes CSS for subject components
 .description {
 	background-color: lightgrey;
 	border-radius: 5px;
@@ -112,9 +96,6 @@ h1.brandResize{
 }
 
 /***** SubjectsView *****/
-
-/*home view*/
->>>>>>> Changes format of example data and adjust components for data
 
 /*home view*/
 #home {
