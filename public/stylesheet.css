@@ -1,3 +1,7 @@
+html, body {
+	height: 3000px;
+}
+
 .navbar {
 	z-index: 20;
 	background-color: #fff;
@@ -36,9 +40,8 @@
 }
 
 /*home view*/
-
 #home {
-    background : url(https://images.pexels.com/photos/88476/pexels-photo-88476.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260) no-repeat center fixed;
+    background : url(https://images.pexels.com/photos/301926/pexels-photo-301926.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260) no-repeat center fixed;
     display: table;
     height: 900px;
     position: relative;
