@@ -9,7 +9,7 @@ const Navbar = (props) => (
     <nav className="navbar navbar-default navbar-fixed-top shadow-border">
     	<div className="container-fluid">
 
-         <a className="navbar-brand" href="#"><img src="http://www.eatlogos.com/food_and_drinks/png/vector_food_orange_logo.png" className="brandResize"/></a>
+         <h1>Learn Live</h1>
 
           <form className="navbar-form pull-right">
             <div className="form-group">

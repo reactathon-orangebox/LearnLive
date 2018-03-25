@@ -1,13 +1,14 @@
 import React, { Component } from 'react';
 import Profile from './components/profile_page/profile.js';
-import Navbar from './components/navbar/Navbar';
+import Hero from './components/home/Hero.js';
 
 class App extends Component {
   constructor(props) {
     super(props);
     this.state = {
       currentView: 'profile',
-      currentUser: 'larrychangg'
+      currentUser: 'larrychangg',
+
     }
   }
 
@@ -18,15 +19,17 @@ class App extends Component {
   switchView() {
     var currentView = this.state.currentView;
 
-    if (currentView === 'profile') {
+    if(currentView === 'profile') {
       return <Profile user={this.state.currentUser} />
+    } else if(currentView === 'home'){
+      return <Hero />
     }
   }
 
   render() {
+
     return (
       <div>
-        <Navbar />
         { this.switchView() }
       </div>
     )

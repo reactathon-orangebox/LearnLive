@@ -1,9 +1,9 @@
-
 .navbar {
 	z-index: 20;
 	background-color: #fff;
-	padding: 5px 5px 5px 5px;
+	/*padding: 5px 5px 5px 5px;*/
 	font-size: 1em;
+	opacity: .5;
 }
 
 .navbar-right {
@@ -12,7 +12,7 @@
 
 .navbar-brand {
 	min-height: 40px;
-	padding: 0 5px 5px;
+	padding: 0 10px 5px;
 }
 
 .navbar-default .navbar-nav li a {
@@ -40,16 +40,39 @@
 	box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.2), 0 2px 4px 0 rgba(0, 0, 0, 0.19);
 }
 
-.brandResize {
-	width: 55px;
-	height: 50px;
+.shadow-border {
+	z-index: 9;
+	background-color: #fff;
+	position: fixed;
+	width: 100%;
+    border-color: #D3D3D3;
+	border-style: solid;
+	border-width: 1px;
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.2), 0 2px 4px 0 rgba(0, 0, 0, 0.19);
 }
 
+h1.brandResize{
+	color: orange;
+	/*text-shadow: -.2px 0 black, 0 .2px black, .2px 0 black, 0 -.2px black;*/
+	font-family:"Great Vibes";
+	padding-right: 1.75em;
+	/*padding-top: .70em;*/
+}
+
+.logoResize {
+	margin-top: .3em;
+	width: 70px;
+	height: 60px;
+}
+
+/*
+.sticky-top {
+	position: fixed;
+}*/
 
 /*home view*/
 #home {
     background : url(https://images.pexels.com/photos/301926/pexels-photo-301926.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260) no-repeat center fixed;
-    display: table;
     height: 900px;
     position: relative;
     width: 100%;
@@ -137,3 +160,103 @@
     margin-top: 6em;
     margin-bottom:2em;
 }
+
+.ui.secondary.menu .dropdown.item:hover,
+.ui.secondary.menu .link.item:hover,
+.ui.secondary.menu a.item:hover,
+.ui.link.secondary.menu .item:hover {
+  background: orange;
+  color: #fff;
+}
+
+h1.title {
+	font-family:"Great Vibes";
+	text-shadow: -2px 0 #000, 0 2px 	#000, 2px 0 	#000, 0 -2px 	#000;
+	font-size: 7em;
+	text-align: center;
+	color: orange;
+	z-index: 999;
+	vertical-align: middle;
+	padding-top: 2.5em;
+	-webkit-animation: fadein 5s; /* Safari, Chrome and Opera > 12.1 */
+    -moz-animation: fadein 5s; /* Firefox < 16 */
+    -ms-animation: fadein 5s; /* Internet Explorer */
+     -o-animation: fadein 5s; /* Opera < 12.1 */
+        animation: fadein 5s;
+}
+
+.ui.secondary.menu .dropdown.item:hover,
+.ui.secondary.menu .link.item:hover,
+.ui.secondary.menu a.item:hover,
+.ui.link.secondary.menu .item:hover {
+  background: orange;
+  color: #fff;
+}
+
+h1.title {
+	font-family:"Great Vibes";
+	text-shadow: -2px 0 #000, 0 2px 	#000, 2px 0 	#000, 0 -2px 	#000;
+	font-size: 7em;
+	text-align: center;
+	color: orange;
+	z-index: 999;
+	vertical-align: middle;
+	padding-top: 2.5em;
+	-webkit-animation: fadein 5s; /* Safari, Chrome and Opera > 12.1 */
+    -moz-animation: fadein 5s; /* Firefox < 16 */
+    -ms-animation: fadein 5s; /* Internet Explorer */
+     -o-animation: fadein 5s; /* Opera < 12.1 */
+        animation: fadein 5s;
+}
+
+.ui.secondary.menu .dropdown.item:hover,
+.ui.secondary.menu .link.item:hover,
+.ui.secondary.menu a.item:hover,
+.ui.link.secondary.menu .item:hover {
+  background: orange;
+  color: #fff;
+}
+
+h1.title {
+	font-family:"Great Vibes";
+	text-shadow: -2px 0 #000, 0 2px 	#000, 2px 0 	#000, 0 -2px 	#000;
+	font-size: 7em;
+	text-align: center;
+	color: orange;
+	z-index: 999;
+	vertical-align: middle;
+	padding-top: 2.5em;
+	-webkit-animation: fadein 5s; /* Safari, Chrome and Opera > 12.1 */
+    -moz-animation: fadein 5s; /* Firefox < 16 */
+    -ms-animation: fadein 5s; /* Internet Explorer */
+     -o-animation: fadein 5s; /* Opera < 12.1 */
+        animation: fadein 5s;
+}
+
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: .9; }
+}
+
+/* Firefox < 16 */
+@-moz-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: .9; }
+}
+
+/* Safari, Chrome and Opera > 12.1 */
+@-webkit-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: .9; }
+}
+
+/* Internet Explorer */
+@-ms-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: .9; }
+}
+
+/* Opera < 12.1 */
+@-o-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: .9; }
