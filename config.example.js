@@ -1,5 +1,0 @@
-export default {
-  API_KEY: 'FILL THIS IN',
-  SESSION_ID: 'FILL THIS IN',
-  TOKEN: 'FILL THIS IN'
-}
