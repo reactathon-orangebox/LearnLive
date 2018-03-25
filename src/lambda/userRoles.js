@@ -1,5 +1,4 @@
 export function handler(event, context, callback) {
-  console.log(event.queryStringParameters.user)
   var user = event.queryStringParameters.user;
   var role;
 

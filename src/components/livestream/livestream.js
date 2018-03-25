@@ -34,7 +34,13 @@ class Livestream extends Component {
 
   viewerSwitch() {
     if (this.state.streaming === false) {
-      return <button onClick={this.startClass.bind(this)}>Start Class</button>
+      if (this.state.userRole === 'publisher') {
+        return <button onClick={this.startClass.bind(this)}>Start Class</button>
+      } else {
+        return <div>Sorry, class is currently not in session!</div>
+      }
+    } else if (this.state.streaming === true && this.state.userRole === 'subscriber') {
+        return <button onClick={this.startClass.bind(this)}>Join Class</button>
     } else {
       return <StreamWindow
                 user={ this.props.user }
@@ -47,6 +53,7 @@ class Livestream extends Component {
   render() {
     return (
       <div>
+        {console.log(this.state.userRole)}
         { this.viewerSwitch() }
       </div>
     )
