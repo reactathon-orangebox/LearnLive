@@ -9,6 +9,7 @@ export default class Hero extends Component {
 		return (
 			<div>
 				<Navbar2 />
+
 				<div id="home">
 						<h1 class="title">Learn Live</h1>
 				</div>
