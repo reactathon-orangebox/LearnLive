@@ -288,10 +288,13 @@ h1.title {
 @-o-keyframes fadein {
     from { opacity: 0; }
     to   { opacity: .9; }
+
 }
+
 
 h2.ui.header {
     font-size: 2rem;
     font-family: "Great Vibes";
     color: orange;
 }
+

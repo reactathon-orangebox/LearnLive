@@ -58,6 +58,25 @@ class Profile extends React.Component {
 			})
 		}
 	}
+
+	followClick() {
+		if (this.state.followButton === false) {
+			$(".button").css("background-color", "orange");
+			$(".button").text('Followed')
+			this.setState({
+				followButton: true,
+				followers: this.state.followers + 1
+			})
+		} else {
+			$(".button").css("background-color", "lightgrey");
+			$(".button").text('Follow')
+			this.setState({
+				followButton: false,
+				followers: this.state.followers - 1
+			})
+		}
+	}
+
 	
 	render() {
 		return (
