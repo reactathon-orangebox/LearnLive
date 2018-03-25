@@ -1,0 +1,43 @@
+.navbar {
+	z-index: 20;
+	background-color: #fff;
+	padding: 1% 1% 1% 0;
+	font-size: 1.2em;
+}
+
+.navbar-brand {
+	min-height: 40px;
+	padding: 0 15px 5px;
+}
+
+.navbar-default .navbar-nav li a {
+	text-align: center;
+	color: grey;
+}
+
+.navbar-default .navbar-nav li a, .navbar-default .navbar-nav li a:active{
+	text-align: center;
+	border-radius: 16px;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #D9d9d9;
+	background-color: orange;
+	color: #fff;
+	box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.2), 0 2px 4px 0 rgba(0, 0, 0, 0.19);
+}
+
+.navbar-brand-logo{
+	max-height: 200px;
+}
+
+/*home view*/
+
+#home {
+    background : url(https://images.pexels.com/photos/88476/pexels-photo-88476.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260) no-repeat center fixed;
+    display: table;
+    height: 900px;
+    position: relative;
+    width: 100%;
+    background-size: cover;
+}
+
