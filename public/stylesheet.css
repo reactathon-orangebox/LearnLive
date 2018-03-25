@@ -162,7 +162,6 @@ h1.brandResize{
 .button {
 	margin: 0.5em;
 	margin-top: 0em;
-	border-radius: 500rem;
 	font-size: 20px;
 	color: black;
 	background-color: lightgrey;
@@ -171,7 +170,6 @@ h1.brandResize{
 .enroll {
 	margin: 0.5em;
 	margin-top: 0em;
-	border-radius: 500rem;
 	font-size: 20px;
 	color: black;
 	background-color: lightgrey;
