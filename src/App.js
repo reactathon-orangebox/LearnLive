@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import Profile from './components/profile_page/profile.js';
-import Navbar from './components/navbar/Navbar';
+import Hero from './components/home/Hero.js';
 
 class App extends Component {
   constructor(props) {
@@ -8,6 +8,7 @@ class App extends Component {
     this.state = {
       currentView: 'profile',
       currentUser: 'larrychangg'
+      currentView: 'home'
     }
   }
 
@@ -20,6 +21,12 @@ class App extends Component {
 
     if (currentView === 'profile') {
       return <Profile user={this.state.currentUser} />
+    if(currentView === 'home'){
+      return <Hero />
+    } else if (currentView === 'room') {
+      return <Classroom />
+    } else if (currentView === 'profile') {
+      return <Profile />
     }
   }
 
