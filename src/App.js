@@ -6,9 +6,8 @@ class App extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      currentView: 'profile',
+      currentView: 'home',
       currentUser: 'larrychangg',
-      currentView: 'home'
     }
   }
 
