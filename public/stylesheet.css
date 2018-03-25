@@ -1,4 +1,13 @@
+<<<<<<< HEAD
 
+=======
+<<<<<<< HEAD
+html, body {
+	height: 3000px;
+}
+=======
+>>>>>>> fixed derricks CSS FAILS
+>>>>>>> fixed derricks CSS FAILS
 
 .navbar {
 	z-index: 20;
@@ -243,14 +252,22 @@ h1.title {
     to   { opacity: .9; }
 }
 
-
 h2.ui.header {
     font-size: 2rem;
     font-family: "Great Vibes";
     color: orange;
 }
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> fixed derricks CSS FAILS
 .profileHeader {
 	background-color: orange;
 	box-shadow: 0px 30px 40px rgba(0,0,0,.1);
 }
+<<<<<<< HEAD
+=======
+
+
+>>>>>>> fixed derricks CSS FAILS
