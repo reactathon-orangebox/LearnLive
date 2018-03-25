@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import Profile from './components/profile_page/profile.js';
 import Hero from './components/home/Hero.js';
+import Navbar2 from './components/navbar/Navbar2.js';
 
 class App extends Component {
   constructor(props) {
@@ -30,7 +31,10 @@ class App extends Component {
 
     return (
       <div>
-        { this.switchView() }
+        <Navbar2 />
+        <div>
+          { this.switchView() }
+        </div>
       </div>
     )
   }
