@@ -1,6 +1,4 @@
-html, body {
-	height: 3000px;
-}
+
 
 .navbar {
 	z-index: 20;
@@ -49,7 +47,7 @@ html, body {
 	background-color: #fff;
 	position: fixed;
 	width: 100%;
-    border-color: #D3D3D3;
+  border-color: #D3D3D3;
 	border-style: solid;
 	border-width: 1px;
     box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.2), 0 2px 4px 0 rgba(0, 0, 0, 0.19);
@@ -128,7 +126,7 @@ h1.brandResize{
 
 .profileHeader {
 	text-align: center;
-	margin-top: 7em;
+	/*margin-top: 7em;*/
 }
 
 .followers {
@@ -165,6 +163,8 @@ h1.brandResize{
 	font-size: 20px;
 	color: black;
 	background-color: lightgrey;
+	padding-right: 1em;
+	padding-left: 1em;
 }
 
 .enroll {
@@ -173,6 +173,8 @@ h1.brandResize{
 	font-size: 20px;
 	color: black;
 	background-color: lightgrey;
+	padding-right: 1em;
+	padding-left: 1em;
 }
 
 .ui.menu[class*="top attached"]:first-child {
@@ -187,14 +189,6 @@ h1.brandResize{
     margin-bottom:2em;
 }
 
-.ui.secondary.menu .dropdown.item:hover,
-.ui.secondary.menu .link.item:hover,
-.ui.secondary.menu a.item:hover,
-.ui.link.secondary.menu .item:hover {
-  background: orange;
-  color: #fff;
-}
-
 h1.title {
 	font-family:"Great Vibes";
 	text-shadow: -2px 0 #000, 0 2px 	#000, 2px 0 	#000, 0 -2px 	#000;
@@ -219,45 +213,6 @@ h1.title {
   color: #fff;
 }
 
-h1.title {
-	font-family:"Great Vibes";
-	text-shadow: -2px 0 #000, 0 2px 	#000, 2px 0 	#000, 0 -2px 	#000;
-	font-size: 7em;
-	text-align: center;
-	color: orange;
-	z-index: 999;
-	vertical-align: middle;
-	padding-top: 2.5em;
-	-webkit-animation: fadein 5s; /* Safari, Chrome and Opera > 12.1 */
-    -moz-animation: fadein 5s; /* Firefox < 16 */
-    -ms-animation: fadein 5s; /* Internet Explorer */
-     -o-animation: fadein 5s; /* Opera < 12.1 */
-        animation: fadein 5s;
-}
-
-.ui.secondary.menu .dropdown.item:hover,
-.ui.secondary.menu .link.item:hover,
-.ui.secondary.menu a.item:hover,
-.ui.link.secondary.menu .item:hover {
-  background: orange;
-  color: #fff;
-}
-
-h1.title {
-	font-family:"Great Vibes";
-	text-shadow: -2px 0 #000, 0 2px 	#000, 2px 0 	#000, 0 -2px 	#000;
-	font-size: 7em;
-	text-align: center;
-	color: orange;
-	z-index: 999;
-	vertical-align: middle;
-	padding-top: 2.5em;
-	-webkit-animation: fadein 5s; /* Safari, Chrome and Opera > 12.1 */
-    -moz-animation: fadein 5s; /* Firefox < 16 */
-    -ms-animation: fadein 5s; /* Internet Explorer */
-     -o-animation: fadein 5s; /* Opera < 12.1 */
-        animation: fadein 5s;
-}
 
 @keyframes fadein {
     from { opacity: 0; }
@@ -286,6 +241,7 @@ h1.title {
 @-o-keyframes fadein {
     from { opacity: 0; }
     to   { opacity: .9; }
+}
 
 }
 
@@ -294,5 +250,10 @@ h2.ui.header {
     font-size: 2rem;
     font-family: "Great Vibes";
     color: orange;
+}
+
+.profileHeader {
+	background-color: orange;
+	box-shadow: 0px 30px 40px rgba(0,0,0,.1);
 }
 

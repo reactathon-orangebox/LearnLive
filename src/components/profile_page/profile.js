@@ -3,7 +3,6 @@ import axios from 'axios';
 import User from './user.js';
 import Uploads from './uploads.js';
 import Live from './live.js';
-import Navbar from '../navbar/Navbar.js'
 import LearnMore from './learnMore.js'
 import $ from 'jquery';
 import { Segment, Divider } from 'semantic-ui-react';
@@ -80,9 +79,14 @@ class Profile extends React.Component {
 	
 	render() {
 		return (
-			<div>
-			<Navbar />
+			<div className='pad'>
 				<div className="user">
+				<br/>
+				<br/>
+				<br/>
+				<br/>
+				<br/>
+				<br/>
 					<User loggedInUser={this.state.teacher} 
 								followers={this.state.followers}
 								following={this.state.following}
