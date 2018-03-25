@@ -43,11 +43,11 @@ class Profile extends React.Component {
 	}
 
 	enrollClick() {
-		if (this.state.followButton === false) {
+		if (this.state.enrollButton === false) {
 			$(".enroll").css("background-color", "orange");
 			$(".enroll").text('Enrolled')
 			this.setState({
-				enrollButton: true,
+				enrollButton: true
 			})
 		} else {
 			$(".enroll").css("background-color", "lightgrey");
