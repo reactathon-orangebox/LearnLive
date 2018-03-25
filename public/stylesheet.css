@@ -246,7 +246,7 @@ h1.title {
 	color: orange;
 	z-index: 999;
 	vertical-align: middle;
-	padding-top: 1.5em;
+	padding-top: .7em;
 	-webkit-animation: fadein 5s; /* Safari, Chrome and Opera > 12.1 */
     -moz-animation: fadein 5s; /* Firefox < 16 */
     -ms-animation: fadein 5s; /* Internet Explorer */

@@ -13,7 +13,7 @@ export default class Hero extends Component {
 				</div>
 				<h1 className="page-header"> Professionals </h1> 
 
-				<ProfessionalsList />
+				<ProfessionalsList profile={this.props.profile} />
 
 				<h1 className="page-header"> Design </h1> 
 

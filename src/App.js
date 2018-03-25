@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import axios from 'axios';
 import Profile from './components/profile_page/profile.js';
 import Navbar from './components/navbar/Navbar2.js'
 import Hero from './components/home/Hero.js';
@@ -10,13 +11,21 @@ class App extends Component {
     super(props);
     this.state = {
       currentView: 'home',
-      currentUser: 'derrickzhang',
+      currentUser: 'dangitskang',
+      currentRole: 'subscriber'
     }
     this.onTeacherClick = this.onTeacherClick.bind(this);
   }
 
   userLogin(user) {
-    this.setState({ currentUser: user });
+    axios.get(`/.netlify/functions/userRoles?user=${user}`)
+      .then(response => {
+        this.setState({currentRole: response.data.role})
+      });
+  }
+
+  changeView(view) {
+    this.setState({currentView: view})
   }
 
   onTeacherClick(view) {
@@ -27,9 +36,9 @@ class App extends Component {
     var currentView = this.state.currentView;
 
     if(currentView === 'profile') {
-      return <Profile user={this.state.currentUser} />
+      return <Profile user={this.state.currentUser} role={this.state.currentRole} />
     } else if(currentView === 'home'){
-      return <Hero /> 
+      return <Hero profile={this.changeView.bind(this)} /> 
     } else if ( currentView === 'subjects') {
       return <SubjectsView onTeacherClick={this.onTeacherClick}/>
     }
@@ -39,7 +48,10 @@ class App extends Component {
 
     return (
       <div>
-        <Navbar2 />
+        <Navbar2 
+          switch={this.changeView.bind(this)}
+          login={this.userLogin.bind(this)}
+        />
         <div>
           { this.switchView() }
         </div>
