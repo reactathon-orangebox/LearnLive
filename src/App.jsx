@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import Classroom from './components/classroom/Classroom';
+import Navbar from './components/navbar/Navbar'
 import Profile from './components/profile_page/profile';
 import SubjectsView from './components/subjects/SubjectsView';
 
@@ -19,9 +19,7 @@ class App extends Component {
   switchView() {
     let { currentView } = this.state;
 
-    if (currentView === 'room') {
-      return <Classroom />;
-    } else if (currentView === 'profile') {
+    if (currentView === 'profile') {
       return <Profile />;
     } else if (currentView === 'subjects') {
       return <SubjectsView />;
