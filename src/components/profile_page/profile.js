@@ -4,10 +4,13 @@ import User from './user.js';
 import Uploads from './uploads.js';
 import Live from './live.js';
 import Navbar from '../navbar/Navbar.js'
+<<<<<<< HEAD
 import LearnMore from './learnMore.js'
 import { Segment, Divider } from 'semantic-ui-react';
 
 
+=======
+>>>>>>> 6d4ca275503a7d72476a48e5a41d2a38dac2f3eb
 import Livestream from '../livestream/livestream';
 
 
@@ -15,7 +18,11 @@ class Profile extends React.Component {
 	constructor(props) {
 		super(props);
 		this.state ={
+<<<<<<< HEAD
 			teacher: 'Derrick Zhang',
+=======
+			teacher: 'larrychangg',
+>>>>>>> 6d4ca275503a7d72476a48e5a41d2a38dac2f3eb
 			user: this.props.user,
 			userToken: 'empty',
 			followers: 546,
