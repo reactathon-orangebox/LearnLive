@@ -43,35 +43,17 @@ class Profile extends React.Component {
 	}
 
 	enrollClick() {
-		if (this.state.enrollButton === false) {
+		if (this.state.followButton === false) {
 			$(".enroll").css("background-color", "orange");
 			$(".enroll").text('Enrolled')
 			this.setState({
-				enrollButton: true
+				enrollButton: true,
 			})
 		} else {
 			$(".enroll").css("background-color", "lightgrey");
 			$(".enroll").text('Enroll')
 			this.setState({
-				enrollButton: false
-			})
-		}
-	}
-
-	followClick() {
-		if (this.state.followButton === false) {
-			$(".button").css("background-color", "orange");
-			$(".button").text('Followed')
-			this.setState({
-				followButton: true,
-				followers: this.state.followers + 1
-			})
-		} else {
-			$(".button").css("background-color", "lightgrey");
-			$(".button").text('Follow')
-			this.setState({
-				followButton: false,
-				followers: this.state.followers - 1
+				enrollButton: false,
 			})
 		}
 	}
