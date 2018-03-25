@@ -10,6 +10,10 @@ const User = (props) => (
 		      <List.Content>
 		        <List.Header>{props.loggedInUser}</List.Header>
 		        <p className='followers'>Followers: {props.followers} &nbsp; Following: {props.following}</p>
+		        <span>
+		        	<button className="button">Follow</button>
+		        	<button className="button">Enroll</button>
+		        </span>
 		      </List.Content>
 		    </List.Item>
 		   </List>
