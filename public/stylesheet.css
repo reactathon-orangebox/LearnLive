@@ -200,29 +200,6 @@ h1.brandResize{
   color: #fff;
 }
 
-h1.title {
-	font-family:"Great Vibes";
-	text-shadow: -2px 0 #000, 0 2px 	#000, 2px 0 	#000, 0 -2px 	#000;
-	font-size: 7em;
-	text-align: center;
-	color: orange;
-	z-index: 999;
-	vertical-align: middle;
-	padding-top: 2.5em;
-	-webkit-animation: fadein 5s; /* Safari, Chrome and Opera > 12.1 */
-    -moz-animation: fadein 5s; /* Firefox < 16 */
-    -ms-animation: fadein 5s; /* Internet Explorer */
-     -o-animation: fadein 5s; /* Opera < 12.1 */
-        animation: fadein 5s;
-}
-
-.ui.secondary.menu .dropdown.item:hover,
-.ui.secondary.menu .link.item:hover,
-.ui.secondary.menu a.item:hover,
-.ui.link.secondary.menu .item:hover {
-  background: orange;
-  color: #fff;
-}
 
 h1.title {
 	font-family:"Great Vibes";
@@ -277,7 +254,6 @@ h1.title {
     from { opacity: 0; }
     to   { opacity: .9; }
 }
-
 
 h2.ui.header {
     font-size: 2rem;
