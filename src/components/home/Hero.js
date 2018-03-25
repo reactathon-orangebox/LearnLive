@@ -9,11 +9,10 @@ export default class Hero extends Component {
 		return (
 			<div>
 				<Navbar2 />
-
 				<div id="home">
+						<h1 class="title">Learn Live</h1>
 				</div>
-
-				<h2 className="page-header">Professionals </h2>
+				<h1 className="page-header"> Professionals </h1> 
 
 				<ProfessionalsList />
 
