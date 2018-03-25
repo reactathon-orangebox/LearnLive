@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { OTSession, OTPublisher, OTStreams, OTSubscriber, preloadScript } from 'opentok-react';
 
-import config from '../../config';
+// import config from '../../config';
 import sampleUsers from '../../sampleData/users';
 
 class Livestream extends Component {
@@ -39,8 +39,8 @@ class Livestream extends Component {
   render() {
     return(
       <OTSession
-        apiKey={ config.API_KEY }
-        sessionId={ config.SESSION_ID }
+        apiKey={ process.env.REACT_APP_OT_API_KEY }
+        sessionId={ process.env.REACT_APP_SESSION_ID }
         token={ this.state.userToken }
         eventHandlers={ this.sessionEvents }
         onError={ this.onError }

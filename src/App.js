@@ -3,8 +3,6 @@ import Classroom from './components/classroom/Classroom';
 import Profile from './components/profile_page/profile.js';
 import Navbar from './components/navbar/Navbar';
 
-import users from './sampleData/users';
-
 class App extends Component {
   constructor(props) {
     super(props);
