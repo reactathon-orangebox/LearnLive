@@ -10,14 +10,15 @@ const clickHandler = (view) => onTeacherClick('profile');
     <div>
       <div>
         <span  onClick={clickHandler}>
-          <img src={'https://images.cdn1.stockunlimited.net/clipart/businessman-avatar_1953703.jpg'} alt='Teacher' />
+          <img src={teacher.image} alt='Teacher' className="fixed-box" />
         </span>
-        <span className="description">
-          <Icon name='user' color='blue'/>
-          <b>{teacher.username}</b>
-          <br/>
+        <div className="description fixed-box">
           {teacher.description}
-        </span>
+        </div>
+        <div>
+          <Icon name='user' color='blue'/>
+          <a className="user-hover" onClick={clickHandler}>{teacher.username}</a>
+        </div>
       </div>
       <Icon name='eye' />
       <span className='viewers'>{`${teacher.viewers} `}</span>

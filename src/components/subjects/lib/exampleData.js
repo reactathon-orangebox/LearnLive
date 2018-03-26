@@ -9,6 +9,7 @@ const data = [
         viewers: 123,
         followers: 124,
         description: 'Come hear to learn the art of one ear',
+        image: 'https://s3.amazonaws.com/uifaces/faces/twitter/doooon/128.jpg',
       },
       {
         id: 1,
@@ -16,6 +17,7 @@ const data = [
         viewers: 234,
         followers: 210,
         description: 'Erudite scholar looking to educate mad lads',
+        image:' https://s3.amazonaws.com/uifaces/faces/twitter/gonzalorobaina/128.jpg',
       },
       {
         id: 2,
@@ -23,6 +25,7 @@ const data = [
         viewers: 530,
         followers: 409,
         description: 'Get better with Dr Pepper',
+        image: 'https://s3.amazonaws.com/uifaces/faces/twitter/zackeeler/128.jpg',
       },
       {
         id: 3,
@@ -30,6 +33,7 @@ const data = [
         viewers: 1293,
         followers: 1243,
         description: 'Work Smart, Not Hard',
+        image: 'https://s3.amazonaws.com/uifaces/faces/twitter/mkginfo/128.jpg',
       },
     ],
   },
@@ -42,6 +46,8 @@ const data = [
         viewers: 1233,
         followers: 1124,
         description: 'Halo is the way yo',
+        image: 'https://s3.amazonaws.com/uifaces/faces/twitter/dudestein/128.jpg',
+        
       },
       {
         id: 5,
@@ -49,6 +55,7 @@ const data = [
         viewers: 2340,
         followers: 2910,
         description: 'GET OUT OF MY CLASSROOM!',
+        image: 'https://s3.amazonaws.com/uifaces/faces/twitter/ariffsetiawan/128.jpg',
       },
       {
         id: 6,
@@ -56,6 +63,7 @@ const data = [
         viewers: 510,
         followers: 439,
         description: 'Butter Butter Butter',
+        image: 'https://s3.amazonaws.com/uifaces/faces/twitter/thomasschrijer/128.jpg',
       },
       {
         id: 7,
@@ -63,6 +71,7 @@ const data = [
         viewers: 793,
         followers: 843,
         description: 'Set it and forget it',
+        image: 'https://s3.amazonaws.com/uifaces/faces/twitter/marclgonzales/128.jpg',
       },
     ],
   },
@@ -75,6 +84,7 @@ const data = [
         viewers: 1323,
         followers: 1424,
         description: 'La cucaracha la cucaracha',
+        image: 'https://s3.amazonaws.com/uifaces/faces/twitter/Shriiiiimp/128.jpg',
       },
       {
         id: 9,
@@ -82,6 +92,7 @@ const data = [
         viewers: 694,
         followers: 490,
         description: 'Learn words with Birds',
+        image: 'https://s3.amazonaws.com/uifaces/faces/twitter/fronx/128.jpg',
       },
       {
         id: 10,
@@ -89,6 +100,7 @@ const data = [
         viewers: 400,
         followers: 479,
         description: 'Hello, how are you?',
+        image: 'https://s3.amazonaws.com/uifaces/faces/twitter/maximsorokin/128.jpg',
       },
       {
         id: 11,
@@ -96,6 +108,7 @@ const data = [
         viewers: 193,
         followers: 243,
         description: 'Eggplant',
+        image: 'https://s3.amazonaws.com/uifaces/faces/twitter/mdsisto/128.jpg',
       },
     ],
   },
@@ -108,6 +121,7 @@ const data = [
         viewers: 2123,
         followers: 2224,
         description: 'Hmph',
+        image: 'https://s3.amazonaws.com/uifaces/faces/twitter/wake_gs/128.jpg',
       },
       {
         id: 13,
@@ -115,6 +129,7 @@ const data = [
         viewers:1834,
         followers: 1910,
         description: 'Numbers with magic',
+        image: 'https://s3.amazonaws.com/uifaces/faces/twitter/sreejithexp/128.jpg',
       },
       {
         id: 14,
@@ -122,6 +137,7 @@ const data = [
         viewers: 320,
         followers: 209,
         description: 'Come here to find out why seven ate nine!',
+        image: 'https://s3.amazonaws.com/uifaces/faces/twitter/jjshaw14/128.jpg',
       },
       {
         id: 15,
@@ -129,6 +145,7 @@ const data = [
         viewers: 593,
         followers: 743,
         description: 'Basic Math for everyone to learn',
+        image: 'https://s3.amazonaws.com/uifaces/faces/twitter/mgonto/128.jpg',
       },
     ],
   },
@@ -141,6 +158,7 @@ const data = [
         viewers: 333,
         followers: 214,
         description: 'The best yoga teacher ever and good-looking too, Huzzah!',
+        image: 'https://s3.amazonaws.com/uifaces/faces/twitter/justme_timothyg/128.jpg',
       },
       {
         id: 17,
@@ -148,6 +166,7 @@ const data = [
         viewers: 434,
         followers: 267,
         description: 'I love to eat, but I also love YOGA. Newcomers always welcome',
+        image: 'https://s3.amazonaws.com/uifaces/faces/twitter/katiemdaly/128.jpg',
       },
       {
         id: 18,
@@ -155,6 +174,7 @@ const data = [
         viewers: 398,
         followers: 320,
         description: 'Unbelievable Yoga with the one and only DangItsKang. Come and try you will love it.',
+        image: 'https://s3.amazonaws.com/uifaces/faces/twitter/davidbaldie/128.jpg',
       },
       {
         id: 19,
@@ -162,6 +182,7 @@ const data = [
         viewers: 255,
         followers: 69,
         description: 'The best worst experience you can ever have with Yoga. Find out what I mean Hehe',
+        image: 'https://s3.amazonaws.com/uifaces/faces/twitter/instalox/128.jpg',
       },
     ],
   },
