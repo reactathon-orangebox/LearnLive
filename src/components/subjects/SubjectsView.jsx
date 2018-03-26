@@ -9,7 +9,7 @@ const SubjectsView = ({ onTeacherClick }) => (
     <br/>
     <br/>
     <div className="subject-view-header">
-      <h1 className="page-header">
+      <h1 className="cursive page-header">
         <Icon name='book' size='large'/>
         Courses
       </h1>

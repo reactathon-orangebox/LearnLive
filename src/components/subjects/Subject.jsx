@@ -5,7 +5,7 @@ import Flexbox from 'flexbox-react';
 const Subject = ({ topic, teachers, onTeacherClick }) => (
   <div>
     <div className="topic page-header">
-      <h2>{topic}</h2>
+      <h2 className="cursive">{topic}</h2>
     </div>
     <Flexbox flexDirection="row" justifyContent="space-around">
         {teachers.map(teacher => 

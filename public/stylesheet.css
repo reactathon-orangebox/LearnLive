@@ -7,10 +7,6 @@
 	opacity: .5;
 }
 
-.navbar-right {
-
-}
-
 .navbar-brand {
 	min-height: 40px;
 	padding: 0 10px 5px;
@@ -67,18 +63,26 @@ h1.brandResize{
 }
 
 /***** SubjectsView *****/
+
+.cursive {
+	font-family:"Great Vibes";
+}
+
 .description {
-	background-color: lightgrey;
+	background-color: lightblue;
 	border-radius: 5px;
 	display: inline-block;
 	vertical-align: top;
-	height: 200px;
-	width: 200px;
 }
 
 .subjects-main-header {
 	height: 5em;
 	padding: 0px;
+}
+
+.fixed-box {
+	height: 128px;
+	width: 128px;
 }
 
 .subject-view-header {
